@@ -24,7 +24,7 @@ const evenMechanic = (userName) => {
       );
     } else {
       return console.log(
-        `'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, Bill!`,
+        `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer ? 'yes' : 'no'}'.\nLet's try again, Bill!`,
       );
     }
   }
