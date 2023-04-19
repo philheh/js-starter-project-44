@@ -7,9 +7,9 @@ const evenMechanic = (userName) => {
   while (rounds < 3) {
     const randomInt = getRandomInt();
     console.log(`Question: ${randomInt}`);
-    const correctAnswer = isEven(randomInt);
+    const correctAnswer = isEven(randomInt) ? 'yes' : 'no';
     const answer = readlineSync.prompt();
-    if ((answer === 'yes' && correctAnswer) || (answer === 'no' && !correctAnswer)) {
+    if (answer === correctAnswer) {
       console.log('Correct!');
       rounds += 1;
     } else {

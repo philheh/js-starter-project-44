@@ -5,3 +5,6 @@
 
 ### brain-even demonstration 
 https://asciinema.org/a/aTc74eLLffPt9wDsvIVzn36QU
+
+### brain-calc demonstration
+https://asciinema.org/a/FguQ0TLHUVWoEX2gRp8mXa1Cu
