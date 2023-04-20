@@ -13,6 +13,19 @@ const getGCD = (num1, num2) => {
   }
   return number2;
 };
+const isPrime = (number) => {
+  if (number < 2) {
+    return false;
+  }
+  let divider = 2;
+  while (divider <= number / 2) {
+    if (number % divider === 0) {
+      return false;
+    }
+    divider += 1;
+  }
+  return true;
+};
 const getRandomInt = (maxIncluded = 100, minExcluded = 0) => {
   const difference = maxIncluded - minExcluded;
   const random = Math.floor(Math.random() * difference) + minExcluded + 1;
@@ -41,5 +54,11 @@ const progressionQuestion = () => {
 };
 
 export {
-  getRandomInt, isEven, getWrongAnswer, getGCD, getProgression, progressionQuestion,
+  getRandomInt,
+  isEven,
+  getWrongAnswer,
+  getGCD,
+  getProgression,
+  progressionQuestion,
+  isPrime,
 };
