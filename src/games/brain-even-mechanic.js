@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomInt, isEven, getWrongAnswer } from '../index.js';
+import { getRandomInt, isEven, getWrongAnswer } from '../../index.js';
 
 const evenMechanic = (userName) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');

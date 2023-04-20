@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { welcomeMsg, userName } from '../src/cli.js';
-import evenMechanic from '../src/games/brain-even-mechanic.js';
+import gcdMechanic from '../src/games/brain-gcd-mechanic.js';
 
 welcomeMsg(userName);
-evenMechanic(userName);
+gcdMechanic(userName);

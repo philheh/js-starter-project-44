@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomInt, getWrongAnswer } from '../index.js';
+import { getRandomInt, getWrongAnswer } from '../../index.js';
 
 const calcMechanic = (userName) => {
   console.log('What is the result of the expression?');
